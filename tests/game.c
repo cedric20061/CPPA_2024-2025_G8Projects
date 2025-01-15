@@ -12,7 +12,7 @@ void test_generate_random_number() {
         assert(num >= min && num <= max);
     }
     printf("test_generate_random_number passed\n");
-}
+} 
 
 void test_cleanString() {
     char str1[] = "  Hello  ";
