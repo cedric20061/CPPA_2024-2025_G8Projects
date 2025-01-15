@@ -4,7 +4,8 @@
 
 Ce projet se compose de plusieurs sous-projets développés en langage C, organisés en trois parties principales : **Console**, **GUI** (Interface Graphique), et **Tests**. Chaque sous-projet a une responsabilité spécifique, et les fichiers sources sont organisés de manière modulaire pour faciliter l'extension et la maintenance du projet.
 
-Les sous-projets ont été réalisés par deux développeurs pour une bonne gestion des projets en équipe :
+Les sous-projets ont été réalisés par deux développeurs pour une bonne gestion des projets en équipe.
+Par ailleurs chaque groupe à éffectuer son travail sur un branche portant le nom du sous projet traité la version finale se trouvant sur la branche principale main.
 
 **Gérald** et **Gracia** : Responsable du sous-projet **Inventaire**
 Gestion d'un inventaire de magasin
@@ -50,9 +51,7 @@ avec malloc() et realloc()), fichiers binaires, pointeurs.
   ● Concepts utilisés : Génération aléatoire de nombres avec rand(), structures de contrôle
   (boucles et conditions), gestion d'entrées utilisateur, modularité des fonctions.
 
-- **Consoe** : réalisé par **Alice Dupont** et **Bob Martin**.
-- **Interface Graphique (GUI) ** : réalisé par **Gérald**
-- **Tests** : réalisé par **Eve Bernard** et **François Petit**.
+  Les interfaces graphiques ont été réalisé par Gérald GUIDI
 
 ## 2. Architecture du projet
 
@@ -166,29 +165,29 @@ Les exécutables seront générés dans les répertoires `console`, `GUI`, et `t
 
 ### Compilation manuelle sans CMake
 
-Si vous ne souhaitez pas utiliser CMake, vous pouvez compiler manuellement chaque sous-projet en utilisant les commandes suivantes :
+Si vous ne souhaitez pas utiliser CMake, vous pouvez compiler manuellement chaque sous-projet en utilisant les commandes suivantes après avoir créer les répertoires build build/console build/test build/GUI :
 
 - **Console** :
 
   ```bash
-  gcc -Iinclude src/console/inventory.c util/inventory.c util/global.c -o build/console/inventory
-  gcc -Iinclude src/console/game.c util/game.c util/global.c -o build/console/game
-  gcc -Iinclude src/console/blocNote.c util/blocNote.c util/global.c -o build/console/blocNote
+  gcc -Iinclude src/console/inventory.c util/inventory.c util/global.c -o build/console/console_inventory
+  gcc -Iinclude src/console/game.c util/game.c util/global.c -o build/console/console_game
+  gcc -Iinclude src/console/blocNote.c util/blocNote.c util/global.c -o build/console/console_blocNote
   ```
 
 - **GUI** (avec GTK) :
 
   ```bash
-  gcc -Iinclude src/GUI/GUI_inventory.c util/inventory.c -o build/GUI/inventory $(pkg-config --cflags --libs gtk+-3.0)
-  gcc -Iinclude src/GUI/GUI_game.c util/game.c -o build/GUI/game $(pkg-config --cflags --libs gtk+-3.0)
-  gcc -Iinclude src/GUI/GUI_blocNote.c util/blocNote.c -o build/GUI/blocNote $(pkg-config --cflags --libs gtk+-3.0)
+  gcc -Iinclude src/GUI/GUI_inventory.c util/inventory.c -o build/GUI/gui_inventory $(pkg-config --cflags --libs gtk+-3.0)
+  gcc -Iinclude src/GUI/GUI_game.c util/game.c -o build/GUI/gui_game $(pkg-config --cflags --libs gtk+-3.0)
+  gcc -Iinclude src/GUI/GUI_blocNote.c util/blocNote.c -o build/GUI/gui_blocNote $(pkg-config --cflags --libs gtk+-3.0)
   ```
 
 - **Tests** :
   ```bash
-  gcc -Iinclude tests/inventory.c util/inventory.c -o build/tests/inventory -lm
-  gcc -Iinclude tests/game.c util/game.c -o build/tests/game -lm
-  gcc -Iinclude tests/blocNote.c util/blocNote.c -o build/tests/blocNote -lm
+  gcc -Iinclude tests/inventory.c util/inventory.c -o build/tests/test_inventory -lm
+  gcc -Iinclude tests/game.c util/game.c -o build/tests/test_game -lm
+  gcc -Iinclude tests/blocNote.c util/blocNote.c -o build/tests/test_blocNote
   ```
 
 ## 5. Compilation des Tests Unitaires
