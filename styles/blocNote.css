@@ -1,0 +1,42 @@
+/* Style de la barre d'en-tête */
+headerbar {
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    border-bottom: 1px solid #2c3e50;
+}
+
+/* Style des boutons */
+button {
+    margin: 2px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    border: none;
+    color: white;
+    transition: all 200ms ease;
+}
+
+/* Style des boutons au survol */
+button:hover {
+    background: linear-gradient(to bottom, #2980b9, #2472a4);
+}
+
+/* Style de la vue texte */
+textview {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12pt;
+    padding: 8px;
+    background-color: #fafafa;
+}
+
+/* Style du texte dans la vue texte */
+textview text {
+    background-color: #fafafa;
+}
+
+/* Style de la barre de statut */
+.status-bar {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    color: #666;
+}

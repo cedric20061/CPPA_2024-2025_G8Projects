@@ -1,0 +1,157 @@
+/* ------------------------- */
+/* Style global de la fenêtre */
+/* ------------------------- */
+window {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* ------------------------- */
+/* Style global des textes   */
+/* ------------------------- */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+/* ------------------------- */
+/* Style des boutons         */
+/* ------------------------- */
+button {
+    all: unset;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.save-button, .add-button  {
+    background-color: #2ecc71;
+}
+
+.add-button:hover, .save-button:hover {
+    background-color: #11532c;
+}
+
+.cancel-button {
+    background-color: #e74c3c;
+}
+.cancel-button:hover {
+    background-color: #521b14;
+}
+/* ------------------------- */
+/* Style des barres de recherche */
+/* ------------------------- */
+.search-bar {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.search-entry {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ------------------------- */
+/* Style des listes de produits */
+/* ------------------------- */
+.product-list {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.product-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-item:hover {
+    background-color: #ecf0f1;
+}
+
+.product-item .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.product-item .price {
+    font-size: 14px;
+    color: #27ae60;
+}
+
+.product-item .category {
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+/* ------------------------- */
+/* Style des TreeView        */
+/* ------------------------- */
+treeview {
+    font-size: 14px;
+}
+
+treeview:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+treeview column {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+treeview row {
+    padding: 10px;
+}
+
+/* ------------------------- */
+/* Style des formulaires     */
+/* ------------------------- */
+.form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.input {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ------------------------- */
+/* Style du footer           */
+/* ------------------------- */
+.footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
