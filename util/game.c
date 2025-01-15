@@ -12,7 +12,7 @@ Levels gamesLevels[] = {
     {"Moyen (Nombre entre 0 et 100, 10 essais maximum)", 100, 10},
     {"Difficile (Nombre entre 0 et 500, 10 essais maximum)", 500, 10},
     {"Expert (Nombre entre 0 et 1000, 15 essais maximum)", 1000, 15},
-}; 
+};
 
 void cleanString(char *str) {
     char *ptr = str;
