@@ -200,7 +200,37 @@ Exécuter les tests unitaires garantit que les données nécessaires à la bonne
 
 ---
 
-## 6. Conclusion
+## 🖼️ Application Previews
+
+### 🏠 Home Page
+
+![Home Page Preview](./previews/Game-home.png)
+
+---
+
+### 📅 Menu Page
+
+![Menu Page Preview](./previews/Game-menu-1.png)
+
+---
+
+### 🔔 Game Page
+
+Stay up to date with interactions, comments, and activity.
+
+![Game-1 Page Preview](./previews/Game-1.png)
+![Game-2 Page Preview](./previews/Game-2.png)
+---
+
+### 👤 Profile Page
+
+View user information, posts, and events created by a specific user.
+
+![Profile Page Preview](./public/previews/profile.png)
+
+---
+
+## 7. Conclusion
 
 Ce projet multi-sous-projets permet de mieux comprendre l'organisation d'un projet C utilisant des interfaces graphiques (via GTK) et des tests unitaires. En suivant les instructions de ce README, vous pourrez configurer et compiler le projet, ainsi que tester les différentes applications développées.
 
