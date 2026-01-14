@@ -210,7 +210,7 @@ Exécuter les tests unitaires garantit que les données nécessaires à la bonne
 
 ### 📅 Menu Page
 
-![Menu Page Preview](./previews/Game-menu-1.png)
+![Menu Page Preview](./previews/Game-menu.png)
 
 ---
 
