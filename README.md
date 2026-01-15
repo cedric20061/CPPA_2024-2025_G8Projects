@@ -200,21 +200,23 @@ Exécuter les tests unitaires garantit que les données nécessaires à la bonne
 
 ---
 
-## 🖼️ Application Previews
+## 6. 🖼️ Application Previews
 
-### 🏠 Home Page
+### Game
+---
+#### 🏠 Home Page
 
 ![Home Page Preview](./previews/Game-home.png)
 
 ---
 
-### 📅 Menu Page
+#### 📅 Menu Page
 
 ![Menu Page Preview](./previews/Game-menu.png)
 
 ---
 
-### 🔔 Game Page
+#### 🔔 Game Page
 
 Stay up to date with interactions, comments, and activity.
 
@@ -222,12 +224,21 @@ Stay up to date with interactions, comments, and activity.
 ![Game-2 Page Preview](./previews/Game-2.png)
 ---
 
-### 👤 Profile Page
 
-View user information, posts, and events created by a specific user.
-
-![Profile Page Preview](./public/previews/profile.png)
-
+### Inventory
+---
+#### List Page
+![Home Page Preview](./previews/Inventory-List.png)
+---
+#### Add Page
+![Home Page Preview](./previews/Inventory-add.png)
+---
+### BlocNote
+---
+#### Page
+![Home Page Preview 1](./previews/Bloc-Note-1.png)
+![Home Page Preview 2](./previews/Bloc-Note-2.png)
+  
 ---
 
 ## 7. Conclusion
